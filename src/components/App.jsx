@@ -33,7 +33,7 @@ function App() {
       {/* {currTime > 12 ? <h1>Why are you still working ?</h1> : null}; Way 1 */}
       {currTime > 12 && <h1>Why are you still working ?</h1>}
       {/* The ternary way ! */}
-      {/* {isLoggedIn ? <h1>Hello</h1> : <Login />} */}
+      {isLoggedIn ? <h1>Hello</h1> : <Login />}
       {/* The otheer way ! */}
       {/* {renderConditionally()} */}
       {/* <h1>Hello</h1> */}
